@@ -3,14 +3,22 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<groupId>org.ioexcept</groupId>
-		<artifactId>ArchAngel</artifactId>
-		<version>1.0-SNAPSHOT</version>
-	</parent>
-
+	<groupId>org.ioexcept</groupId>
 	<artifactId>ArchAngelFrontEnd</artifactId>
+	<version>1.0-SNAPSHOT</version>
 	<packaging>war</packaging>
+	
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<tomcat7-groupId>org.apache.tomcat.maven</tomcat7-groupId>
+		<tomcat7-artifactId>tomcat7-maven-plugin</tomcat7-artifactId>
+		<tomcat7-version>2.1</tomcat7-version>
+		<tomcat8-groupId>org.apache.tomcat.maven</tomcat8-groupId>
+		<tomcat8-artifactId>tomcat8-maven-plugin</tomcat8-artifactId>
+		<tomcat8-version>3.0-r1756463</tomcat8-version>
+	</properties>
 
 	<build>
 		<finalName>archAngelFrontEnd</finalName>

@@ -44,6 +44,7 @@
 						<configuration>
 							<path>/</path>
 							<enableNaming>false</enableNaming>
+							<buildDirectory>${project.basedir}/docker</buildDirectory>
 							<finalName>archAngelFrontEnd.jar</finalName>
 							<charset>utf-8</charset>
 						</configuration>

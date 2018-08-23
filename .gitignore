@@ -33,6 +33,7 @@ hs_err_pid*
 service/target
 frontend/target
 
+docker/war-exec.*
 
 .extract
 service/.extract

@@ -32,7 +32,7 @@ button {
 <table  style="width:100%">
 <tr>
 <td style="text-align: center; vertical-align: middle; color: #000080;">
-<img alt="" src="0032png" >
+<img alt="" src="001.png" >
 <h2> ArchAngel: A microservice example project</h2>
 </td>
 </tr>

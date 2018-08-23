@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mvn clean package
+docker cp docker/archAngelFrontEnd.jar archangelui:/
+docker restart archangelui
